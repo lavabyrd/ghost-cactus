@@ -168,6 +168,12 @@ p.small {
 	color: #bbb; font-size: 14px; line-height: 1.5;
 	display: block;
 }
+p.small a {
+	color: #bbb;
+}
+p.small a:hover {
+	color: #5694f1;
+}
 
 blockquote { padding-left: 15px; border-left: 3px solid #eee; }
 
@@ -357,6 +363,12 @@ Post Page
 
 #sharing a:hover {
 	color: #444;
+}
+
+#comments {
+	border-top: 1px solid #eee;
+	padding-top: 40px;
+	margin-top: 80px;
 }
 
 /*=========================================
