@@ -469,6 +469,28 @@ h2.month {
 	color: #5694f1;
 }
 
+/*=========================================
+Author
+=========================================== */
+
+#photo, #details {
+	float: left;
+}
+
+#photo {
+	width: 60px;
+	border-radius: 50%;
+}
+
+#details {
+	width: 440px;
+	margin-left: 20px;
+}
+
+#details h1 {
+	margin-top: 0;
+}
+
 /*=====================*/
 
 @media screen and (max-width: 540px) {
