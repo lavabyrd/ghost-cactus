@@ -126,7 +126,7 @@ em, i { font-style: italic; }
 	color:#aaa;
 }
 
-h1 {
+header h1 {
 	font-size:30px;
 	letter-spacing:-1px;
 	color:#222;
@@ -157,11 +157,11 @@ h2 {
 	margin-top: 2px;
 }
 
-h3, h4, h5 { color:#333; }
+h1, h2, h3 { color:#333; }
 
-h3 { font-size:20px; font-weight: 500; }
-h4 { font-size:16px;  font-weight:bold; }
-h5 { font-size:15px; font-weight: bold; }
+h1 { font-size:20px; font-weight: 500; }
+h2 { font-size:16px;  font-weight:bold; }
+h3 { font-size:15px; font-weight: bold; }
 
 h6 {
 	font-size: 13px;
@@ -379,6 +379,13 @@ Post Page
 
 .post-template #footer {
 	margin-top: 40px;
+}
+
+.post input {
+	border: 1px solid #eee;
+	padding: 10px 15px;
+	width: 100%;
+	border-radius: 3px;
 }
 
 /*=========================================
