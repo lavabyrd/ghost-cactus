@@ -275,6 +275,14 @@ Post List
 	font:bold 19px/1.7 "Helvetica Neue",helvetica,Arial,sans-serif;
 }
 
+#post-list b {
+	display: block;
+	max-width: 400px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
 #post-list .dates {
 	float:right;
 	position:relative;
