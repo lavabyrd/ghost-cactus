@@ -170,7 +170,7 @@ h6 {
 	margin-bottom: 6px;
 }
 
-p.small {
+p.small, .pagination {
 	color: #bbb; font-size: 14px; line-height: 1.5;
 	display: block;
 }
@@ -318,10 +318,34 @@ Post List
 	font-size: 17px;
 }
 
-#footer {
+footer {
 	box-shadow: inset 0 1px 0 #eee;
 	padding: 40px 0 0 0;
-	margin-top: 100px;
+	margin-top: 40px;
+}
+
+#index-meta {
+	font-size:13px;
+	line-height:1.4;
+	margin-top:80px;
+	color:#444;
+	text-align: center;
+}
+
+.pagination {
+	position: relative;
+}
+
+.newer-posts, .older-posts {
+	position: absolute;
+}
+
+.newer-posts {
+	left: 0;
+}
+
+.older-posts {
+	right: 0;
 }
 
 /*=========================================
@@ -338,11 +362,7 @@ Post Page
 #post-meta {
 	font-size:13px;
 	font-weight:bold;
-	color:#aaa;
-	margin-bottom:40px;
 	line-height:1.4;
-	border-top:1px solid #eee;
-	padding-top:40px;
 	margin-top:80px;
 	color:#444;
 }
@@ -383,10 +403,6 @@ Post Page
 	border-top: 1px solid #eee;
 	padding-top: 40px;
 	margin-top: 80px;
-}
-
-.post-template #footer {
-	margin-top: 40px;
 }
 
 .post input {
@@ -512,7 +528,7 @@ Author
 #wrapper { padding:20px 20px 20px 20px;}
 #header { margin-bottom: 60px; border-bottom: 1px solid #eee; }
 .post { margin: 40px 0; }
-#footer { margin-top: 60px; }
+footer { margin-top: 60px; }
 
 #post-list, #archive-list { margin-top: 0; }
 #post-meta { margin-top: 60px; }
