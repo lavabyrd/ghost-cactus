@@ -25,5 +25,6 @@ Once you have that, just open `partials/comments.hbs` and replace the `YOUR_SHOR
 
 ## Forking and derivatives
 
-This project was once authored and designed by Hayden Bleasel. I've taken over responsibility for maintenance of this but I'll include his message below as it stands the test of time and should be remembered :)
+This project was once authored and designed by Hayden Bleasel. I've taken over responsibility for maintenance of this but I'll include his message below as it stands the test of time and should be remembered.
+
 I don't really mind what you do with this project, as long as your blog looks awesome. I'd appreciate if you left the `<meta name="designer">` as Mark Preston. I think it'd be good if you make some reference back to me so people can find the source project, but other than that just have fun. Also, if you're going to make style edits I recommend creating a new stylesheet and linking that up so you can still fetch the latest updates from here without losing all your changes.
