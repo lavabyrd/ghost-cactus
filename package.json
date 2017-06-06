@@ -4,12 +4,12 @@
   "description": "A minimalistic theme for Ghost inspired by Cactus for Mac.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/haydenbleasel/ghost-themes.git"
+    "url": "https://github.com/splinterific/ghost-cactus"
   },
-  "author": "Hayden Bleasel <haydenbleasel@gmail.com>",
+  "author": "Mark Preston <markgpreston@gmail.com>",
   "bugs": {
-    "url": "https://github.com/haydenbleasel/ghost-themes/issues"
+    "url": "https://github.com/splinterific/ghost-themes/issues"
   },
-  "homepage": "https://github.com/haydenbleasel/ghost-themes",
+  "homepage": "https://github.com/splinterific/ghost-themes",
   "private": true
 }
